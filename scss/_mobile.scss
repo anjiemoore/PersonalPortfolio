@@ -43,6 +43,12 @@
         }
     }
 
+    .about-info {
+        grid-template-areas: 
+        'bioimage'
+        'bio';
+        grid-template-columns: 1fr;
+    }
     
 }
 
