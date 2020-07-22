@@ -8,7 +8,7 @@
 body {
     @include background;
     background: $primary-color;
-    color: #fff;
+    color: set-text-color($primary-color);
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,7 +19,7 @@ h1,
 h2,
 h3 {
     margin: 0;
-    font-weight: 400;
+    font-weight: 300;
 
     &.heading {
         font-size: 6rem;
